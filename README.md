@@ -1,17 +1,26 @@
 ## Reinforcement Learning Algorithms
 Implemented Q-Learning, SARSA, and Cross Entropy Method using numpy and torch and compared their performance on frozenlake-deterministic, frozenlake-stochastic, and cliffwalking.
 
+## Dependencies
+* OpenAI gym
+* matplotlib
+* numpy
+* collections
+* torch
+* itertools
+* plotting
+
 ## Deterministic Frozenlake Results
-![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/frozen-det.PNG)
+![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/images/frozen-det.PNG)
 
 ## Stochastic Frozenlake Results
-![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/frozen-sto.PNG)
+![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/images/frozen-sto.PNG)
 
 ## Cliffwalking Results
-![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/cliffwalk.PNG)
+![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/images/cliffwalk.PNG)
 
 ## Changing Parameters
-![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/comp-frozen-sto.PNG)
+![alt text](https://github.com/Phrungck/reinforcement-learning-models/blob/main/images/comp-frozen-sto.PNG)
 
 All results showed that SARSA and Q-Learning bested Cross-entropy method for the CliffWalking environment. Changes in the hyperparameters showed significant changes. Notably, by increasing the alpha parameter Q-Learning and SARSA exceeded results of the baseline. 
 
