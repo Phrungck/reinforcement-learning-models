@@ -1,4 +1,4 @@
-## Reinforcement Learning Algorithms
+## Reinforcement Learning Algorithms (2021 coding-style)
 Implemented Q-Learning, SARSA, and Cross Entropy Method using numpy and torch and compared their performance on frozenlake-deterministic, frozenlake-stochastic, and cliffwalking.
 
 ## Dependencies
